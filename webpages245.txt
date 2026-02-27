@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Valorant Tournament Registration</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Orbitron', sans-serif;
+}
+
+body{
+    background: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.85)),
+    url('https://images.alphacoders.com/110/1101293.jpg');
+    background-size: cover;
+    background-position: center;
+    color:white;
+}
+
+header{
+    background:#ff4655;
+    padding:15px 20px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:15px;
+}
+
+header img{
+    height:50px;
+}
+
+header h1{
+    font-size:26px;
+    letter-spacing:2px;
+}
+
+.container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:85vh;
+}
+
+.form-box{
+    background:#1f2a35;
+    padding:40px;
+    width:400px;
+    border-radius:12px;
+    box-shadow:0 0 25px rgba(255,70,85,0.5);
+}
+
+.form-box h2{
+    text-align:center;
+    margin-bottom:25px;
+    color:#ff4655;
+}
+
+.input-group{
+    margin-bottom:18px;
+}
+
+.input-group label{
+    display:block;
+    margin-bottom:6px;
+    font-size:14px;
+}
+
+.input-group input,
+.input-group select{
+    width:100%;
+    padding:10px;
+    border:none;
+    border-radius:6px;
+    outline:none;
+    background:#0f1923;
+    color:white;
+}
+
+.input-group input:focus,
+.input-group select:focus{
+    border:1px solid #ff4655;
+}
+
+button{
+    width:100%;
+    padding:12px;
+    background:#ff4655;
+    border:none;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+    border-radius:6px;
+    transition:0.3s;
+}
+
+button:hover{
+    background:white;
+    color:#ff4655;
+}
+
+footer{
+    text-align:center;
+    padding:15px;
+    background:#ff4655;
+}
+
+@media(max-width:500px){
+    .form-box{
+        width:90%;
+    }
+
+    header{
+        flex-direction:column;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <!-- Logo Image -->
+    <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/Valorant_logo_-_pink_color_version.svg" alt="Valorant Logo">
+    <h1>VALORANT TOURNAMENT REGISTRATION</h1>
+</header>
+
+<div class="container">
+    <div class="form-box">
+        <h2>Register Your Team</h2>
+
+        <form>
+            <div class="input-group">
+                <label>Team Name</label>
+                <input type="text" placeholder="Enter Team Name" required>
+            </div>
+
+            <div class="input-group">
+                <label>Team Leader Name</label>
+                <input type="text" placeholder="Enter Leader Name" required>
+            </div>
+
+            <div class="input-group">
+                <label>Email</label>
+                <input type="email" placeholder="Enter Email" required>
+            </div>
+
+            <div class="input-group">
+                <label>Phone Number</label>
+                <input type="tel" placeholder="Enter Phone Number" required>
+            </div>
+
+            <div class="input-group">
+                <label>Region</label>
+                <select required>
+                    <option value="">Select Region</option>
+                    <option>Asia</option>
+                    <option>Europe</option>
+                    <option>North America</option>
+                    <option>South America</option>
+                </select>
+            </div>
+
+            <div class="input-group">
+                <label>Rank</label>
+                <select required>
+                    <option value="">Select Rank</option>
+                    <option>Iron</option>
+                    <option>Bronze</option>
+                    <option>Silver</option>
+                    <option>Gold</option>
+                    <option>Platinum</option>
+                    <option>Diamond</option>
+                    <option>Ascendant</option>
+                    <option>Immortal</option>
+                    <option>Radiant</option>
+                </select>
+            </div>
+
+            <button type="submit">Register Now</button>
+        </form>
+
+    </div>
+</div>
+
+<footer>
+    © 2026 Valorant Esports Tournament | Designed by You
+</footer>
+
+</body>
+</html>
