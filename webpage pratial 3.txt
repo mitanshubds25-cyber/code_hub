@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Profile Page</title>
+</head>
+<body>
+
+    <h1>Student Information</h1>
+
+    <!-- Image -->
+    <img src="https://via.placeholder.com/180" alt="Student Photo" width="180">
+
+    <!-- Email -->
+    <p>Email: 
+        <a href="mailto:student123@gmail.com">student123@gmail.com</a>
+    </p>
+
+    <!-- Ordered List -->
+    <h2>Morning Routine</h2>
+    <ol>
+        <li>Wake up at 6 AM</li>
+        <li>Exercise</li>
+        <li>Go to College</li>
+        <li>Complete Homework</li>
+    </ol>
+
+    <!-- Unordered List -->
+    <h2>Hobbies</h2>
+    <ul>
+        <li>Reading</li>
+        <li>Coding</li>
+        <li>Playing Cricket</li>
+    </ul>
+
+    <!-- Description List -->
+    <h2>Computer Terms</h2>
+    <dl>
+        <dt>CPU</dt>
+        <dd>Central Processing Unit of computer.</dd>
+
+        <dt>RAM</dt>
+        <dd>Temporary memory used by computer.</dd>
+    </dl>
+
+</body>
+</html>
