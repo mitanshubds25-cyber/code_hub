@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mountains UpdatePage</title>
+</head>
+<body>
+
+    <h1><mark>Mountains Update</mark></h1>
+
+    <!-- Image -->
+    <img src="mountain.jpg" alt="Mountains" width="180">
+
+    <!-- Email -->
+    <p><strong>Email:</strong> 
+        <a href="mailto:student123@gmail.com"><em>student123@gmail.com</em></a>
+    </p>
+
+    <!-- Ordered List -->
+    <h2><b>Types Of Mountains</b></h2>
+    <ol>
+        <li><i>Residual Mountains</i>Ex. Aravalli Range</li>
+        <li><strong>Fild Mountain:</strong>Ex. Himalayas,Alps</li>
+        <li>Block Mountains:<mark>Ex. Black forest, vosges mountains</mark></li>
+        <li>Volcanics Muntains:<ins>Ex. Mount fuji, </ins></li>
+    </ol>
+
+    <!-- Unordered List -->
+    <h2><b>Famous mountains</b></h2>
+    <ul>
+        <li><em>Mount fuji</em> Famous in japan</li>
+        <li><strong>Mount Elbrus</strong>Located in Russia</li>
+        <li>Denali <i>highest mountain in usa</i></li>
+    </ul>
+
+
+</body>
+</html>
